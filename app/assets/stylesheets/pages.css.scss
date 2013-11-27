@@ -1,0 +1,30 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.downwards
+{
+	line-height: 400px;
+}
+.right1
+{
+	text-align:right;
+	line-height: 50px;
+}
+
+h1.ex1
+{
+	text-align:center;
+	height:6em;
+}
+
+h1.ex1:hover span.ex1 
+{
+	display:none;
+}
+
+h1.ex1:hover:before 
+{
+	color:red;
+	content:"No!";
+}
